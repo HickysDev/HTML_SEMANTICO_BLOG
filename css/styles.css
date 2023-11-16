@@ -1,0 +1,93 @@
+/* Geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8D99AE;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #EF233C;
+}
+
+body {
+    background-color: #2B2D42;
+}
+
+/* Navbar */
+
+#navbar {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #D90429;
+    background-color: #EF233C;
+    color: #EDF2F4;
+}
+
+#navbar a {
+    color: #EDF2F4;
+}
+
+#navbar a:hover {
+    color: #DDD;
+}
+
+#navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Conteudo principal */
+
+.container {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#posts-container {
+    flex: 3 1 0;
+}
+
+.post {
+    margin-bottom: 2.5rem;
+}
+
+.post img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.title,
+.description,
+.author {
+    margin-bottom: 1rem;
+}
+
+.title a {
+    font-size: 2rem;
+    color: #EF233C;
+}
+
+.author {
+    color: #D90429;
+}
